@@ -1,6 +1,6 @@
 import About from "./components/about";
 import { Contact } from "./components/contact";
-import { Feature } from "./components/features";
+
 import { Footer } from "./components/footer";
 import Header from "./components/header";
 import { Services } from "./components/services";
@@ -32,7 +32,7 @@ function App() {
         backgroundImage: ' url("https://www.fonewalls.com/wp-content/uploads/2020/09/Neon-Border-AMOLED-Black-Wallpaper-08.jpg%22) '
       }}>
         <Services />
-        <Feature />
+        
         <Sponsor />
         <Statistic />
         <Team />
